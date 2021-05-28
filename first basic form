@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Home - TG first website.</title>
+        <meta name = "description" content = "This im my website" />
+        <meta charset = "utf-8" />
+    </head>
+    <body>
+        <form>
+            <label for="profile">Profile Photo</label>
+            <input id="profile" type="file" accept="image/*" /> 
+            <label for="first-name">First Name</label>
+            <input id="first-name" required placeholder="Name" type = "text" />
+            <input required placeholder="Last Name"  type = "text" />
+            <input required placeholder="Username" type = "text" />
+            <input required placeholder="Password" minlength="10" type = "password" />
+            <input type="submit" value="Create Account" />
+        </form>
+    </body>
+</html>
