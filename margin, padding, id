@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>Home - TG first website.</title>
+        <link rel="shortcut icon" sizes="16*16 32*32 64*64" href="img/logo.png" />
+        <style>
+          html{
+                background-color: tomato;
+            }
+          body{
+              margin: 0;
+              padding: 20px;
+              background-color: thistle;
+          }
+          div{
+              padding: 10px;
+          }
+          #first{
+              background-color: whitesmoke;
+              height: 150px;
+              width: 150px;
+          }
+          #second {
+            height: 100px;
+            width: 100px;
+              background-color: teal;
+          }
+         #third {
+            height: 50px;
+            width: 50px;
+            background-color: wheat;
+         }
+         #fourth {
+            height: 25px;
+            width: 25px;
+            background-color: blanchedalmond;
+         }
+        </style>
+    </head>
+    <body>
+        <div id="first">
+            <div id="second">
+                <div id="third">
+                    <div id="fourth"></div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
